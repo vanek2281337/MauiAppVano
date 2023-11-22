@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppVano.MainPage">
+
+    <ScrollView>
+        <StackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+          
+            
+           
+            <Entry
+            x:Name="Search"
+            Text=""
+            TextColor="white"
+            Placeholder="Search"
+            Margin="0, 15, 0, 0"/>
+            
+            <ImageButton Source="https://news.milkbranch.ru/wp-content/uploads/2022/04/14-1.jpg"
+                         Clicked="ToOnImageClick"/>
+            <Label
+             Text="Milk and Cheese"
+             SemanticProperties.HeadingLevel="Level1"
+             FontSize="12"
+            HorizontalOptions="Center" />
+            
+            <ImageButton Source="https://gastritlechim.ru/wp-content/uploads/2016/12/kakie-ovoshhi-pokazany-pri-gastrite-s-povyshennoj-kislotnostyu.jpg"
+                        Clicked="ToOnVigitablesClick"/>
+            <Label
+                Text="Vigitables"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="12"
+                HorizontalOptions="Center" />
+            
+            <ImageButton Source="https://oskada.ru/wp-content/uploads/2015/11/315.jpg"
+                          Clicked="ToOnWaterClick"/>
+            <Label
+                Text="Water"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="12"
+                HorizontalOptions="Center" />
+
+
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

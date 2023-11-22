@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppVano.PageMilkCheese"
+             Title="PageMilkCheese">
+    <VerticalStackLayout>
+        <Image Source="https://sixdollarfamily.com/wp-content/uploads/2019/05/benefits-of-raw-milk-FB.jpg"/>
+        <Button
+        x:Name="BuyBtn"
+        Text="Купить"
+        HorizontalOptions="Center"
+         Clicked="BuyBtn_Clicked"
+        />
+
+        <Image Source="https://luckclub.ru/images/luckclub/2022/02/lonre.jpg"/>
+        <Button
+        x:Name="BuyCheese"
+        Text="Купить"
+        HorizontalOptions="Center"
+        Clicked="BuyCheeseBtn_Clicked"
+/>
+
+    </VerticalStackLayout>
+</ContentPage>

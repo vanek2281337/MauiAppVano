@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppVano.BuyMilk"
+             Title="BuyMilk">
+    <VerticalStackLayout>
+        <Entry
+        x:Name="Name"
+        Text=""
+        TextColor="white"
+        Placeholder="Enter your name"
+        Margin="0, 15, 0, 0"/>
+        <Entry
+        x:Name="TelephoneNumber"
+        Text=""
+        TextColor="white"
+        Placeholder="Enter your number"
+        Margin="0, 15, 0, 0"/>
+        <Entry
+        x:Name="HomeAdress"
+        Text=""
+        TextColor="white"
+        Placeholder="Enter your adress"
+        Margin="0, 15, 0, 0"/>
+        <Button
+         x:Name="BuyBtn"
+         Text="Купить"
+         HorizontalOptions="Center"
+         Clicked="BuyBtn_Clicked"
+         />
+    </VerticalStackLayout>
+</ContentPage>
