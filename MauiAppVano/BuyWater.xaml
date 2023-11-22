@@ -4,9 +4,27 @@
              x:Class="MauiAppVano.BuyWater"
              Title="BuyWater">
     <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+        <Entry
+        x:Name="Name"
+        Text=""
+        TextColor="white"
+        Placeholder="Enter your name"
+        Margin="0, 15, 0, 0"/>
+        <Entry
+        x:Name="TelephoneNumber"
+        Text=""
+        TextColor="white"
+        Placeholder="Enter your number"
+        Margin="0, 15, 0, 0"/>
+        <Entry
+        x:Name="HomeAdress"
+        Text=""
+        TextColor="white"
+        Placeholder="Enter your adress"
+        Margin="0, 15, 0, 0"/>
+        <Button 
+            Clicked="Send__Click"
+            Text="Отправить"
+            />
     </VerticalStackLayout>
 </ContentPage>

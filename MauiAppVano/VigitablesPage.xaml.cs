@@ -6,10 +6,10 @@ public partial class VigitablesPage : ContentPage
 	{
 		InitializeComponent();
 	}
-
-
     private void BuyBtn_Clicked(object sender, EventArgs e)
     {
         Navigation.PushAsync(new BuyVigitables());
+
     }
+
 }

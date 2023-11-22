@@ -22,11 +22,9 @@
         TextColor="white"
         Placeholder="Enter your adress"
         Margin="0, 15, 0, 0"/>
-        <Button
-         x:Name="BuyBtn"
-         Text="Купить"
-         HorizontalOptions="Center"
-         Clicked="BuyBtn_Clicked"
-         />
+        <Button 
+         Clicked="Send__Click"
+         Text="Отправить"
+            />
     </VerticalStackLayout>
 </ContentPage>
