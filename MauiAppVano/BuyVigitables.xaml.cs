@@ -10,7 +10,7 @@ public partial class BuyVigitables : ContentPage
     {
         if (Name.Text == "" || TelephoneNumber.Text == "" || HomeAdress.Text == "")
         {
-            await DisplayAlert("error", "error2", "error3");
+            await DisplayAlert("Ошибка", "Нужно заполнить все данные", "вернуться");
 
         }
 

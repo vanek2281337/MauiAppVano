@@ -3,8 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiAppVano.PageMilkCheese"
              Title="PageMilkCheese">
-    <VerticalStackLayout>
+    <VerticalStackLayout Spacing="25"
+                         Padding="30,0"
+                         VerticalOptions="Center">
         <Image Source="https://sixdollarfamily.com/wp-content/uploads/2019/05/benefits-of-raw-milk-FB.jpg"/>
+
         <Button
         x:Name="BuyBtn"
         Text="Купить"
