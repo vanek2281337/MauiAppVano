@@ -10,7 +10,7 @@ public partial class WaterPage : ContentPage
 
     private void BuyBtn_Clicked(object sender, EventArgs e)
     {
-        Navigation.PushAsync(new BuyWater());
+        Navigation.PushAsync(new BuyOrder());
 
     }
 }

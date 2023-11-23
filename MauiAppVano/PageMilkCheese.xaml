@@ -3,25 +3,26 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiAppVano.PageMilkCheese"
              Title="PageMilkCheese">
-    <VerticalStackLayout Spacing="25"
-                         Padding="30,0"
-                         VerticalOptions="Center">
-        <Image Source="https://sixdollarfamily.com/wp-content/uploads/2019/05/benefits-of-raw-milk-FB.jpg"/>
-
-        <Button
+   <ScrollView>
+    <VerticalStackLayout Margin="5" Padding="10" HorizontalOptions="Center" Background="GreenYellow">
+        <Image Source="https://sixdollarfamily.com/wp-content/uploads/2019/05/benefits-of-raw-milk-FB.jpg" Margin="5, -20, 5, 0" HeightRequest="300" WidthRequest="320"/>
+        <Button 
         x:Name="BuyBtn"
         Text="Купить"
         HorizontalOptions="Center"
-         Clicked="BuyBtn_Clicked"
-        />
+        Clicked="BuyBtn_Clicked"
+        Margin="5, -70, 5, 0" Padding="10"
+        WidthRequest="320"/>
 
-        <Image Source="https://luckclub.ru/images/luckclub/2022/02/lonre.jpg"/>
+        <Image Source="https://luckclub.ru/images/luckclub/2022/02/lonre.jpg" Margin="5, -20, 5, 0" HeightRequest="300" WidthRequest="320"/>
         <Button
         x:Name="BuyCheese"
         Text="Купить"
         HorizontalOptions="Center"
         Clicked="BuyCheeseBtn_Clicked"
-/>
+        Margin="5, -70, 5, 0" Padding="10"
+        WidthRequest="320"/>
 
     </VerticalStackLayout>
+   </ScrollView>
 </ContentPage>

@@ -12,11 +12,11 @@ public partial class PageMilkCheese : ContentPage
 
     private void BuyBtn_Clicked(object sender, EventArgs e)
     {
-        Navigation.PushAsync(new BuyMilk());
+        Navigation.PushAsync(new BuyOrder());
     }
 
     private void BuyCheeseBtn_Clicked(object sender, EventArgs e)
     {
-        Navigation.PushAsync(new BuyCheese());
+        Navigation.PushAsync(new BuyOrder());
     }
 }

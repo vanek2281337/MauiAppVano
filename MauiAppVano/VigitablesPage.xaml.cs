@@ -8,7 +8,7 @@ public partial class VigitablesPage : ContentPage
 	}
     private void BuyBtn_Clicked(object sender, EventArgs e)
     {
-        Navigation.PushAsync(new BuyVigitables());
+        Navigation.PushAsync(new BuyOrder());
 
     }
 

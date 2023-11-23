@@ -3,16 +3,33 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiAppVano.VigitablesPage"
              Title="VigitablesPage">
-    <VerticalStackLayout Spacing="25"
-                         Padding="30,0"
-                         VerticalOptions="Center">
-        <Image Source ="https://gastritlechim.ru/wp-content/uploads/2016/12/kakie-ovoshhi-pokazany-pri-gastrite-s-povyshennoj-kislotnostyu.jpg"/>
-        <Button
-                x:Name="BuyBtn"
-                Text="Купить"
-                HorizontalOptions="Center"
-                Clicked="BuyBtn_Clicked"
+    <ScrollView>
+        <VerticalStackLayout Margin="5" Padding="10" HorizontalOptions="Center" Background="LightGreen">
+            <Image Source ="https://s0.rbk.ru/v6_top_pics/media/img/9/67/346944347149679.webp"  Margin="5, -50, 5, 0" HeightRequest="300" WidthRequest="320"/>
+            <Button
+             x:Name="BuyBtn"
+             Text="Купить"
+             HorizontalOptions="Center"
+             Clicked="BuyBtn_Clicked"
+             Margin="5, -70, 5, 0" Padding="10"
+             WidthRequest="320"
                 />
-
-    </VerticalStackLayout>
+            <Image Source ="https://cdnn21.img.ria.ru/images/07e5/03/17/1602534385_0:132:1280:852_1920x0_80_0_0_d2dd13c5e239cc07d37788cefb1bbdcf.jpg"  Margin="5, -50, 5, 0" HeightRequest="300" WidthRequest="320"/>
+            <Button
+            x:Name="BuyBtn2"
+            Text="Купить"
+            HorizontalOptions="Center"
+            Clicked="BuyBtn_Clicked"
+            Margin="5, -70, 5, 0" Padding="10"
+            WidthRequest="320"/>
+            <Image Source ="https://produkt-pitaniya.info/wp-content/uploads/2022/04/ovoshi-svekla-1024x554.jpg" Margin="5, -50, 5, 0" HeightRequest="300" WidthRequest="320"/>
+            <Button
+            x:Name="BuyBtn3"
+            Text="Купить"
+            HorizontalOptions="Center"
+            Clicked="BuyBtn_Clicked"
+            Margin="5, -70, 5, 0" Padding="10"
+            WidthRequest="320"/>
+        </VerticalStackLayout>
+        </ScrollView>
 </ContentPage>

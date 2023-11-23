@@ -4,46 +4,27 @@
              x:Class="MauiAppVano.MainPage">
 
     <ScrollView>
-        <StackLayout
-            Spacing="25"
-            Padding="30,0"
-            VerticalOptions="Center">
-          
-            
-           
-            <Entry
+        <VerticalStackLayout Margin="5" Padding="10" HorizontalOptions="Center" BackgroundColor="LightGray">
+        <Entry
+            VerticalOptions="Center"
             x:Name="Search"
             Text=""
-            TextColor="white"
+            TextColor="Black"
             Placeholder="Search"
-            Margin="0, 15, 0, 0"/>
-            
-            <ImageButton Source="https://news.milkbranch.ru/wp-content/uploads/2022/04/14-1.jpg"
-                         Clicked="ToOnImageClick"/>
-            <Label
-             Text="Milk and Cheese"
-             SemanticProperties.HeadingLevel="Level1"
-             FontSize="12"
-            HorizontalOptions="Center" />
-            
-            <ImageButton Source="https://gastritlechim.ru/wp-content/uploads/2016/12/kakie-ovoshhi-pokazany-pri-gastrite-s-povyshennoj-kislotnostyu.jpg"
-                        Clicked="ToOnVigitablesClick"/>
-            <Label
-                Text="Vigitables"
-                SemanticProperties.HeadingLevel="Level1"
-                FontSize="12"
-                HorizontalOptions="Center" />
-            
-            <ImageButton Source="https://oskada.ru/wp-content/uploads/2015/11/315.jpg"
-                          Clicked="ToOnWaterClick"/>
-            <Label
-                Text="Water"
-                SemanticProperties.HeadingLevel="Level1"
-                FontSize="12"
-                HorizontalOptions="Center" />
-
-
-        </StackLayout>
+            Margin="0, 0, 0, 0"/>
+            <ImageButton Source="https://news.milkbranch.ru/wp-content/uploads/2022/04/14-1.jpg" Clicked="ToOnImageClick" Margin="5, 0, 5, 0" HeightRequest="200" WidthRequest="320"/>
+            <Label Text="Молоко и Сыры" Margin="5, -20, 5, 0" Padding="5"  FontSize="20" TextColor="GreenYellow" WidthRequest="320" FontAttributes="Bold" BackgroundColor="DarkGray"/>
+            <HorizontalStackLayout HorizontalOptions="Center" Margin="0">
+                <VerticalStackLayout Margin="5" WidthRequest="150">
+                    <ImageButton Source="https://gastritlechim.ru/wp-content/uploads/2016/12/kakie-ovoshhi-pokazany-pri-gastrite-s-povyshennoj-kislotnostyu.jpg"  Clicked="ToOnVigitablesClick" Margin="5, -4, 5, 0" HeightRequest="100" WidthRequest="160"/>
+                    <Label Text="Овощи" Margin="5, -5, 5, 0" Padding="6"  FontSize="20" TextColor="LightGreen" WidthRequest="160" FontAttributes="Bold" BackgroundColor="DarkGray"/>
+                </VerticalStackLayout>
+                <VerticalStackLayout Margin="5" WidthRequest="150">
+                    <ImageButton Source="https://oskada.ru/wp-content/uploads/2015/11/315.jpg" Margin="15, 0, 5, 0" HeightRequest="100" WidthRequest="200" Clicked="ToOnWaterClick"/>
+                    <Label Text="Вода" Margin="15, -8, 5, 0" Padding="5"  FontSize="20" TextColor="LightBlue" WidthRequest="150" FontAttributes="Bold" BackgroundColor="DarkGrey"/>
+                </VerticalStackLayout>
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
     </ScrollView>
 
 </ContentPage>
